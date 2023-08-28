@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_trip_infos",
+  "info": {
+    "displayName": "TripInfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "road": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trip-road"
+    },
+    "distance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trip-distance"
+    },
+    "difficulty": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trip-difficulty"
+    },
+    "duration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trip-duration"
+    },
+    "comfort": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trip-comfort"
+    }
+  }
+}

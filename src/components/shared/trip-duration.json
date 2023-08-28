@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_trip_durations",
+  "info": {
+    "displayName": "TripDuration"
+  },
+  "options": {},
+  "attributes": {
+    "duration": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

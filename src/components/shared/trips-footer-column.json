@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_trips_footer_columns",
+  "info": {
+    "displayName": "TripsFooterColumn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "trips": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::trip.trip"
+    }
+  }
+}

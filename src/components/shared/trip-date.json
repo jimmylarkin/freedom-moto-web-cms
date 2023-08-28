@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_shared_trip_dates",
+  "info": {
+    "displayName": "TripDate",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dateStart": {
+      "type": "date",
+      "required": true
+    },
+    "dateEnd": {
+      "type": "date",
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "isBookable": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "bookingLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "isExact": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "spacesLeft": {
+      "type": "integer"
+    }
+  }
+}

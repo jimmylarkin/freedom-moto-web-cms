@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blocks_faqs",
+  "info": {
+    "displayName": "FAQ"
+  },
+  "options": {},
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq"
+    },
+    "moreQuestionsTeaser": {
+      "type": "string"
+    },
+    "askMoreLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link-with-icon"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_trip_distances",
+  "info": {
+    "displayName": "TripDistance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "distance": {
+      "type": "integer",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

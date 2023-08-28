@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_menu_items",
+  "info": {
+    "displayName": "MenuItem"
+  },
+  "options": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "subMmenuItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.menu-item-sub"
+    }
+  }
+}

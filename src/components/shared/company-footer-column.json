@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_company_footer_columns",
+  "info": {
+    "displayName": "CompanyFooterColumn"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    }
+  }
+}

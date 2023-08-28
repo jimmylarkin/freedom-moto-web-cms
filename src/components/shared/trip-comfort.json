@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_trip_comforts",
+  "info": {
+    "displayName": "TripComfort",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comfort": {
+      "type": "enumeration",
+      "enum": [
+        "Full comfort",
+        "Basic",
+        "Rough"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

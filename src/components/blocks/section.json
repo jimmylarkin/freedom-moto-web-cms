@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_blocks_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "maxLength": 150
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 250
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "titleLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "imageAlign": {
+      "type": "enumeration",
+      "enum": [
+        "Auto",
+        "Left",
+        "Right"
+      ],
+      "default": "Auto"
+    },
+    "text": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

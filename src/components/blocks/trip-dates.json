@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_trip_dates",
+  "info": {
+    "displayName": "TripDates",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.trip-date"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

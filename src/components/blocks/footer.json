@@ -1,0 +1,52 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.social-link"
+    },
+    "companyInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.company-information"
+    },
+    "copyright": {
+      "type": "string",
+      "required": true,
+      "maxLength": 200
+    },
+    "privacyPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "cookiesPolicy": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "tripsColumn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trips-footer-column"
+    },
+    "companyColumn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.company-footer-column"
+    }
+  }
+}

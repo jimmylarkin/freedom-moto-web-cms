@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_trip_teasers",
+  "info": {
+    "displayName": "TripTeaser",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "trip": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::trip.trip"
+    }
+  }
+}
